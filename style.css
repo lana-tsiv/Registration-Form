@@ -19,6 +19,7 @@ form {
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
+  padding-bottom: 2em;
 }
 
 fieldset {
@@ -38,7 +39,9 @@ label {
   margin: 0.5rem 0;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 0;
@@ -47,11 +50,11 @@ input, textarea, select {
   min-height: 2em;
 }
 
-input, textarea {
+input,
+textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
-  
 }
 
 .inline {
@@ -63,4 +66,18 @@ input, textarea {
 input[type="submit"] {
   display: block;
   width: 60%;
+  min-width: 300px;
+  margin: 1em auto 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+a {
+  color: #dfdfe2;
 }
